@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Registration Form Assignemnt</title>
+        <style>
+            body {
+                background-color: rgb(211, 234, 239);
+                font-family: 'Times New Roman', Times, serif
+            }
+            h1 {
+                font-size: 50px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header style="background-color: rgb(144, 180, 212); color: aliceblue;">
+            <h1 style="text-align: center;"><B><U><I>Registration Form:</I></U></B></h1>
+        </header>
+        <form action="" style="text-align: center;">
+            First Name: <input type="text" id="fname" required><br>
+            Last Name:<input type="text" id="lname" required><br>
+            Email: <input type="email" id="email" pattern=".+@" size="30" required><br>
+            Password: <input type="password" id="password"><br>
+            <label for="address">Address:</label><br>
+            <textarea name="address" id="address" rows="5" cols="40">Enter your address here:</textarea>
+            Phone Number: <input type="number" id="phoneNumber">
+
+        </form>
+    </body>
+</html>
